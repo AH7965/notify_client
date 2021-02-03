@@ -27,7 +27,6 @@ class notify:
             assert response.status_code == 200
             self.ticking.terminate()
             self.ticking.join()
-            self.ticking.close()
             self.status_alive = 0
 
     def update_project_name(self, project_name):
