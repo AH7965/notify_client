@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="notify_client",
+    name="notifyclient",
     version="0.1.0",
     author="hashimoto7965@gmail.com",
     author_email="hashimoto7965@gmail.com",
