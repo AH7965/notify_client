@@ -1,1 +1,1 @@
-from notify_client import notify
+from .notify_client import notify
